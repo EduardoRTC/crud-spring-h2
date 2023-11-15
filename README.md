@@ -5,7 +5,8 @@ Este é um projeto simples de CRUD (Create, Read, Update, Delete) em Java usando
 ## Configuração do Projeto
 
 Certifique-se de ter o Java e o Maven instalados em sua máquina.
-Configuração do Banco de Dados H2
+
+## Configuração do Banco de Dados H2
 
 O banco de dados utilizado é o H2, um banco de dados em memória. A configuração de login para o H2 pode ser encontrada no arquivo application.yml:
 
@@ -38,11 +39,12 @@ yaml:
       
 
 ## Para acessar o console do H2, siga estas etapas:
-    - Execute a aplicação Spring Boot.
-    - Abra seu navegador e vá para http://localhost:8080/h2.
-    - No campo "JDBC URL", insira jdbc:h2:mem:testdb.
-    - Deixe os campos "User Name" e "Password" em branco.
-    - Clique no botão "Connect".
+    
+- Execute a aplicação Spring Boot.
+- Abra seu navegador e vá para http://localhost:8080/h2.
+- No campo "JDBC URL", insira jdbc:h2:mem:testdb.
+- Deixe os campos "User Name" e "Password" em branco.
+- Clique no botão "Connect".
 
 Isso permitirá que você acesse o console do H2 e visualize o estado atual do banco de dados, além de executar consultas SQL interativamente.
 Endpoints
